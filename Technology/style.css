@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+.container0 {
+    background-color: white;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
 .container1 {
     display: flex;
     flex-direction: column;
@@ -137,7 +144,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 15px 5px 15px 5px;
+    padding: 40px 5px 35px 5px;
 }
 
 .service-container {
@@ -192,6 +199,38 @@ ul {
     padding-right: 3px;
     border-right: 1px solid #7d5fff;
     margin-right: 3px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.container3-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container3-img-item {
+    margin-right: 50px;
+    text-align: center;
+
+}
+
+.container3-img-item img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #7d5fff;
+    text-align: center;
+    
 }
 
 .container4 {
