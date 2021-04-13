@@ -34,4 +34,4 @@ jobs:
 
     # Deploy App to Surge
     - name: Deploying Project to Surge
-      run: surge ./ ubaidHTMLproject1.surge.sh --token ${{ secrets.SURGE_SECRET }}
+      run: surge ./ ubaidhtmlproject1.surge.sh --token ${{ secrets.SURGE_SECRET }}
