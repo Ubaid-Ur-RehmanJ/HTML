@@ -284,4 +284,242 @@ input[type="text-area"] {
 }
 
 
+@media (max-width: 800px) {
+    .container3 {
+        width: 700px;
+        margin-left: 20px;
+    }
+    .container3-img-item img {
+        width: 100px;
+        height: 100px;
+        border: 2px solid #7d5fff;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width: 750px) {
+    .container3 {
+        width: 650px;
+        margin-left: 20px;
+    }
+    .container3-img-item img {
+        width: 100px;
+        height: 100px;
+        border: 2px solid #7d5fff;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width: 650px) {
+    .container3 {
+        width: 550px;
+        margin-left: 30px;
+    }
+    .container3-img-item img {
+        width: 100px;
+        height: 100px;
+        border: 2px solid #7d5fff;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width: 550px) {
+    .container0 {
+        width: 100%;
+
+    }
+    .container1 {
+        width: 500px;
+        margin-left: 10px;
+
+    }
+
+    .container2 {
+        width: 100%;
+        margin: 0;
+        
+    }
+    .service-container {
+        padding: 5px;
+    }
+    .service-container-item {
+        padding: 5px;
+    }
+    .container3 {
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    .container4 {
+        width: 500px;
+        margin-left: 10px;
+    }
+    .container4 input[type="text"] {
+        width: 200px;
+        font-size: 16px;
+        border: 1px solid #7d5fff;
+        display: block;
+        margin: 10px;
+    
+    }
+    
+    input[type="text-area"] {
+        width: 500px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .container5 {
+        width: 500px;
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .container0 {
+        width: 100%;
+
+    }
+
+
+    .container1 {
+        width: 380px;
+
+    }
+    .time-container {
+        display: flex;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .time-item {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #7d5fff;
+        margin: 5px;
+        text-align: center;
+    
+    }
+    
+    .time-item h4 {
+        color: #7d5fff;
+        font-size: 16px;
+    }
+    .form {
+        width: 380px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    input {
+        width: 250px;
+    }
+    .btn {
+        width: 80px
+    }
+    .contact {
+        margin: 0 auto;
+        /*padding: 5px;*/
+        margin-bottom: 20px;
+        margin-top: 50px;
+        
+    }
+    
+    .contact ul {
+        list-style-type: none;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+      
+    }
+    
+    .contact ul li {
+        padding: 1px;
+        border: 1px solid blue;
+        margin: 2px;
+    }
+    
+    .contact ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 2px;
+        
+        
+    }
+    .contact ul li a:hover {
+        color: blue;
+    
+    }
+    
+    .img {
+        border-radius: 50%;
+        outline: 0;
+    }
+
+
+    .container2 {
+        width: 380px;
+        margin: 0;
+        
+    }
+    .span {
+        font-size: 14px;
+    }
+    .service-container {
+        padding: 5px;
+    }
+
+    
+    .service-container-item {
+        padding: 5px;
+    }
+
+
+    .container3 {
+        width: 380px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .container3-img {
+        display: flex;
+        align-items: flex-start;
+    }
+    .container3-img-item img {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #7d5fff;
+        /*text-align: center;*/
+        
+    }
+
+
+    .container4 {
+        width: 380px;
+        margin-left: 10px;
+    }
+    .container4 input[type="text"] {
+        width: 150px;
+        font-size: 16px;
+        border: 1px solid #7d5fff;
+        display: block;
+        margin: 10px;
+    
+    }
+    
+    input[type="text-area"] {
+        width: 380px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .container5 {
+        width: 380px;
+        margin-left: 10px;
+    }
+}
+
+
 
