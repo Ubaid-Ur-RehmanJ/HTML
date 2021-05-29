@@ -5,7 +5,7 @@
 
 header {
     background-color: black;
-    padding: 20px 10px;
+    padding: 10px 10px;
 }
 
 .nav {
@@ -274,4 +274,77 @@ header {
     float: right;
     width: 85%;
     padding-top: 30px;
+}
+
+/*Contact Us section*/
+
+.contact {
+    margin: auto;
+    width: 850px;
+    
+}
+
+.container h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.container h1 span{
+    color: orange;
+}
+
+.form {
+    margin: 35px 0;
+}
+
+.form .form-group {
+    margin-bottom: 20px;
+}
+
+.form .form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input, 
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+.form textarea {
+  height: 200px;
+}
+
+.form input:focus, 
+.form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+.form-btn {
+    padding: 10px 25px;
+    color: white;
+    background-color: rgb(56, 55, 51);
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: orange;
+    color: white;
+}
+
+/*Contact info section*/
+#contact-info {
+    background-color: rgb(56, 53, 43);
+    color: white;
+}
+
+#contact-info .container .box {
+    float: left;
+    width: 33%;
 }
