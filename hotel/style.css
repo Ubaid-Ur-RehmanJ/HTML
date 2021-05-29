@@ -20,6 +20,8 @@ header {
     float: left;
     text-align: center;
 }
+
+
 /*
 
 .container {
@@ -41,7 +43,12 @@ header {
     text-decoration: none;
     
 }
- 
+
+.nav li:hover {
+    background-color: #576574;
+    color: white;
+}
+
 .nav ul li {
     float: left;
     display: block;
@@ -163,3 +170,108 @@ header {
     padding-top: 45px;
 }
 
+
+
+/* About Section */
+
+.about {
+    background-color: rgb(237, 237, 237);
+    color: black;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.about .about-info {
+    float: left;
+    width: 50%;
+}
+
+.about .about-info h1 {
+    font-size: 28px;
+}
+
+.about .about-info h1 span {
+    color: orange
+}
+
+.about .about-info p {
+    padding: 20px 30px;
+}
+
+.about .about-img {
+    float: right;
+    width: 45%;
+}
+
+.about .about-img img {
+    border-radius: 50%;
+}
+
+
+.reviews {
+    background: url('img/test-bg.jpg') no-repeat center center/cover;
+    height: 600px;
+    
+    padding-top: 50px;
+}
+
+.reviews .container h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.review1 {
+    background-color: #f7b731;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 40px 20px;
+    height: 150px;
+   
+}
+
+.review1 img {
+    float: left;
+    width: 20%;
+    width: 100px;
+    padding-top: 15px;
+    margin-left: 10px;
+    
+}
+
+.review1 p {
+    float: right;
+    width: 85%;
+    padding-top: 30px;
+}
+/*
+.review2 {
+    background-color: #f7b731;
+}*/
+
+.review2 {
+    background-color: #f7b731;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 40px 20px;
+    height: 150px;
+   
+}
+
+.review2 img {
+    float: left;
+    width: 20%;
+    width: 100px;
+    padding-top: 15px;
+    margin-left: 10px;
+    
+}
+
+.review2 p {
+    float: right;
+    width: 85%;
+    padding-top: 30px;
+}
