@@ -44,6 +44,13 @@ header {
     
 }
 
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 .nav li:hover {
     background-color: #576574;
     color: white;
