@@ -133,5 +133,76 @@ ul {
     margin: 35px 0px;
 }
 
+.container-client h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
 
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 20px;
+}
+
+
+
+
+.form {
+    width: 750px;
+    background-color: rgb(57, 158, 84);
+    color: white;
+    padding: 20px 40px;
+
+}
+
+.form .form-group {
+    margin-bottom: 20px;
+}
+
+.form .form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input, 
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+.form textarea {
+  height: 100px;
+}
+
+.form input:focus, 
+.form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+.form-btn {
+    width: 100%;
+    padding: 10px 25px;
+    color: white;
+    background-color: rgb(56, 55, 51);
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: orange;
+    color: white;
+}
+
+#main-footer {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    height: 100px;
+    padding-top: 45px;
+}
 
