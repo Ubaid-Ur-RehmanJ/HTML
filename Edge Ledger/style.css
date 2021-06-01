@@ -114,6 +114,10 @@ ul {
     height: 420px;
 }
 
+.who div {
+    flex: 1;
+}
+/*
 .who-content {
     display: flex;
     flex-direction: column;
@@ -122,6 +126,15 @@ ul {
     justify-content: flex-start;
     background-color: black;
     color: white;
+}
+*/
+
+.who-img {
+    background-image: url('./img/people.jpg') no-repeat center center/cover;
+    /*
+    width: 650px; 
+    height: 420px;
+*/
 }
 
 .who li {
@@ -205,4 +218,35 @@ ul {
     height: 100px;
     padding-top: 45px;
 }
+
+@media(max-width: 990px) {
+    .who {
+        height: 480px;
+    }
+
+    .who-img {
+        height: 480px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .what {
+        height: 320px;
+    }
+
+    .box {
+        width: 250px;
+    }
+
+    #who {
+        display: block;
+        padding: 10px 30px;
+        background-color: rgb(56, 55, 51);
+        color: white;
+    }
+    
+}
+
+
 
